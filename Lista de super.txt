@@ -3,3 +3,7 @@
 azucar
 leche
 agua
+
+-----------------
+galletitas dulces
+galletitas saladas
