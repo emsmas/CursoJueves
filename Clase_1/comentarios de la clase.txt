@@ -1,0 +1,4 @@
+git init 
+git add dipper.jp
+git add .
+
