@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var nombre;
+        var metros;
+
+        nombre = prompt('Ingrese su nombre:', '');
+        metros = prompt('Ingrese los metros:', '');
+
+        if (metros > 0 && metros < 1000) {
+            document.write(nombre + ' deberias ir a pie esos ' + metros + ' metros');
+        }
+        else if (metros > 1000 && metros < 10000) {
+            document.write(nombre + ' deberias ir en bicicleta esos ' + metros + ' metros')
+        }
+        else if (metros > 10000 && metros < 30000) {
+            document.write(nombre + ' deberias ir en Colectivo esos ' + metros + ' metros')
+        }
+        else if (metros > 30000 && metros < 100000) {
+            document.write(nombre + ' deberias ir en Auto esos ' + metros + ' metros')
+        }
+        else if (metros>1000000){
+            document.write(nombre + ' deberias ir en Avion esos ' + metros + ' metros')
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
