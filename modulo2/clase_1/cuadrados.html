@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TareaColorSquare</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="cuadrado rojo" onclick="cambiarFondo('red') "></div>
+        <div class="cuadrado verde" onclick="cambiarFondo('green')"></div>
+        <div class="cuadrado amarillo" onclick="cambiarFondo('yellow')"></div>
+    </div>
+
+</body>
+<style>
+    .contenedor {
+        display: flex;
+    }
+
+    .cuadrado {
+        height: 100px;
+        width: 100px;
+    }
+
+    .rojo {
+        background-color: red;
+    }
+
+    .verde {
+        background-color: green;
+    }
+
+    .amarillo {
+        background-color: yellow;
+    }
+</style>
+
+
+<script>
+
+    function cambiarFondo(color) {
+        document.querySelector('body').style.background = color;
+    }
+</script>
+
+</html>
